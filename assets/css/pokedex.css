@@ -1,0 +1,141 @@
+
+.pokemons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #93ad938f;
+}
+
+.card-number {
+    color:  #000;
+    text-align:  right;
+    font-size: .500rem;
+}
+
+.card-name {
+    text-transform: capitalize;
+    color: #fff;
+
+}
+
+.card-detail {
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    justify-content: space-between;
+}
+
+.card-detail .types {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+ }
+
+.card-detail .types .type {
+    text-transform: capitalize;
+    text-decoration-color: #000;
+    font-weight: 200 ;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .8rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.popUp {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: auto;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color:  #93ad938f;
+}
+
+.popUp button {
+    position: absolute;
+    top: 2vh;
+    right: 11vw;
+    font-size: 2.2rem;
+    color: #fff;
+    background-color: #979797;
+    border: none;
+    border-radius: 1rem;
+}
+.pokeScrn {
+    margin: .5rem;
+    height: 100vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    column-width: auto;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+.pokeScrn img {
+    max-width: 200%;
+    height: 200px;
+}
+
+.grass {
+    background-color: #9DCB7F;}
+.poison  {
+    background-color: #B177A6;}
+.fire  {
+    background-color: #EA9F68;}
+.water  {
+    background-color: #94A5D2;}
+.flying  {
+    background-color: #B1A7CA;}
+.bug  {
+    background-color: #BBC66E;}
+.normal  {
+    background-color: #BBBB9A;}
+.electric  {
+    background-color: #EFD46B;}
+.ground  {
+    background-color: #E3CA8C;}
+.fairy  {
+    background-color: #EDD1DF;}
+.fighting  {
+    background-color: #D56723;}
+.psychic  {
+    background-color: #C96E68;}
+.rock {
+    background-color: #C8B568;}
+.steel  {
+    background-color: #C3C4D0;}
+.ice  {
+    background-color: #B3D7D9;}
+.dragon  {
+    background-color: #8C84B8;}
+.ghost  {
+    background-color: #9A87B1;}
+.dark {  
+    background-color: #968879;}
+
+.card-detail img {
+    max-width: 100%;
+    height: 100px;
+}
+
+
+
+

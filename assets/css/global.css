@@ -1,0 +1,46 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.body {
+   background-color: #000;
+}
+
+.caput {
+    color: #fff;
+    text-align-last: center;
+    display:grid;
+    margin: .2rem;
+    border-radius: 1rem;
+    background-color: #e56a62;
+    background-image: url(./victini-hd-iphone-12-pro-max.jpg);
+    background-size:cover;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.pagination button {
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+    color: #fff;
+    background-color: #979797;
+    border: none;
+    border-radius: 1rem;
+}
+    
